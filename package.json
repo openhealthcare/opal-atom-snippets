@@ -8,7 +8,7 @@
   "activationCommands": {
     "atom-workspace": "opal-snippets:toggle"
   },
-  "repository": "https://github.com/atom/opal-snippets",
+  "repository": "https://github.com/openhealthcare/opal-atom-snippets.git",
   "license": "GPL",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
