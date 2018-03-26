@@ -1,0 +1,18 @@
+{
+  "name": "opal-snippets",
+  "main": "./lib/opal-snippets",
+  "version": "0.1.1",
+  "description": "Snippets package for the Opal Framework opal.openhealthcare.org.uk",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "opal-snippets:toggle"
+  },
+  "repository": "https://github.com/atom/opal-snippets",
+  "license": "GPL",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

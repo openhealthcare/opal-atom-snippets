@@ -1,0 +1,53 @@
+'.text.html':
+
+  # Opal panel templatetags
+  'opal-recordpanel':
+    'prefix': 'record_panel'
+    'body': '{% record_panel models.$1 %}'
+
+  # Opal forms templatetags
+  'opal-load-forms':
+    'prefix': 'load'
+    'body': '{% load forms %}'
+
+  'opal-checkbox':
+    'prefix': 'checkbox'
+    'body': '{% checkbox field="$1" %}'
+
+  'opal-verticalstyle':
+    'prefix': 'vertical'
+    'body': 'style="vertical" '
+
+  'opal-label=""':
+    'prefix': 'label'
+    'body': 'label="$1" '
+
+  'opal-datepicker':
+    'prefix': 'datepicker'
+    'body': '{% datepicker field="$1" %}'
+
+  'opal-input':
+    'prefix': 'input'
+    'body': '{% input field="$1" %}'
+
+  'opal-select':
+    'prefix': 'select'
+    'body': '{% select field="$1" %}'
+
+  'opal-textarea':
+    'prefix': 'textarea'
+    'body': '{% textarea field="$1" %}'
+
+  # Miscellaneous Bootstrap helpers (requries Emmet)
+  'Bootstrap div.row + 3 div.col-md-4':
+    'prefix': '3column'
+    'body': 'div.row>div.col-md-4*3'
+
+  'Bootstrap div.row + 3 div.col-md-6':
+    'prefix': '2column'
+    'body': 'div.row>div.col-md-6*2'
+
+  # Django templates
+  'django-block':
+    'prefix': 'blk'
+    'body': '{% block $1 %}\n{% endblock %} <!-- $1 -->'
