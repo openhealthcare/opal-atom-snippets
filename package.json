@@ -1,7 +1,7 @@
 {
   "name": "opal-snippets",
   "main": "./lib/opal-snippets",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Snippets package for the Opal Framework opal.openhealthcare.org.uk",
   "keywords": [],
   "activationCommands": {
