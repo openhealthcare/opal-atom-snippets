@@ -1,18 +1,10 @@
 {
-  "context-menu": {
-    "atom-text-editor": [
-      {
-        "label": "Toggle opal-snippets",
-        "command": "opal-snippets:toggle"
-      }
-    ]
-  },
   "menu": [
     {
       "label": "Packages",
       "submenu": [
         {
-          "label": "opal-snippets",
+          "label": "Opal Snippets",
           "submenu": [
             {
               "label": "Toggle",

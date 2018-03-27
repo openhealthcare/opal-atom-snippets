@@ -51,3 +51,11 @@
   'django-block':
     'prefix': 'blk'
     'body': '{% block $1 %}\n{% endblock %} <!-- $1 -->'
+
+
+'.source.python':
+
+  # Opal pathways
+  'New Opal Pathway':
+    'prefix': 'pathway'
+    'body': 'class $1(pathway.PagePathway):\n    display_name = "$2"\n    slug = "$3"\n    steps = (\n        $4\n    )'
